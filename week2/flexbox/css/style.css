@@ -27,13 +27,38 @@ h1 {
     font-style: italic;
 }
 
-@media screen and (min-width: 700px) {
+@media screen and (min-width: 640px) {
     header {
         display: flex;
         flex-direction: row;
     }
 
-    ul li {
-        display: inline-block;
+    nav {
+        flex: 1 1 0;
+    }
+
+    nav ul {
+        display: flex;
+        flex-direction: row;
+    }
+
+    nav ul li {
+        text-align: center;
+        flex: 1 1 0;
+        padding: 10px;
+    }
+}
+
+@media screen and (min-width: 900px) {
+    header {
+        justify-content: space-between;
+    }
+
+    nav {
+        flex: 0 0 0;
+    }
+
+    nav ul li {
+        padding: 10px 20px;
     }
 }
