@@ -51,3 +51,8 @@ h2 {
     max-width: 1000px;
     margin: auto;
 }
+
+#photos div {
+    width: 240px;
+    text-align: center;
+}
