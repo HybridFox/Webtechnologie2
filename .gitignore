@@ -38,10 +38,11 @@
 # JIRA plugin
 atlassian-ide-plugin.xml
 
+
 # Crashlytics plugin (for Android Studio and IntelliJ)
 com_crashlytics_export_strings.xml
 crashlytics.properties
 crashlytics-build.properties
 fabric.properties
-
-.idea/workspace.xml
+node_modules/
+/react_start_file/
