@@ -1,0 +1,8 @@
+{% extends 'layout.twig' %}
+{% block body %}
+    <ul>
+        <li>ID: {{ user.id }}</li>
+        <li>Name: {{ user.displayName }}</li>
+        <li><img src="{{  user.picture }}" alt=""></li>
+    </ul>
+{% endblock %}

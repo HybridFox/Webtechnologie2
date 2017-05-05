@@ -1,0 +1,58 @@
+nav ul {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    list-style: none;
+    justify-content: center;
+    padding: 0;
+}
+
+nav {
+    margin: 40px 0;
+}
+
+nav ul li {
+    flex: 50% 1 0;
+    text-align: center;
+}
+
+.logo {
+    flex-basis: 100%;
+}
+
+h2 {
+    margin: 0;
+    padding: 0;
+}
+
+@media (min-width: 800px) {
+    nav ul li {
+        flex: 1 1 0;
+        text-align: center;
+    }
+
+    .logo {
+        flex-basis: 0%;
+        order: 1;
+        align-self: baseline;
+    }
+
+    .branding, .graffiti {
+        order: 2;
+    }
+}
+
+#photos {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    max-width: 1000px;
+    margin: auto;
+}
+
+#photos div {
+    width: 240px;
+    text-align: center;
+}
